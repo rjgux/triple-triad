@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode: "jit",
   theme: {
+    fontFamily: {
+      body: ["Inter", "sans-serif"],
+    },
     extend: {},
   },
   variants: {
