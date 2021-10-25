@@ -126,9 +126,9 @@ const Home: React.FunctionComponent<
                     <motion.button
                       key={`cards_${id}`}
                       layout
-                      className={`w-[7rem] ${
+                      className={`w-[7rem] transition ${
                         activeCard && activeCard.id === id
-                          ? `opacity-100`
+                          ? `opacity-100 transform scale-110`
                           : `opacity-60`
                       }`}
                       onClick={() => setActiveCard(card)}
